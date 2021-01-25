@@ -90,7 +90,9 @@
   display: flex;
   position: relative;
   width: 100%;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 .error-icon {
   display: none;
@@ -98,6 +100,7 @@
 .error-icon.active {
   display: flex;
   position: absolute;
+  top: 15px;
   right: 15px;
 }
 .login-box input {
